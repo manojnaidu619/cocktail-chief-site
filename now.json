@@ -3,19 +3,9 @@
     "builds": [{ "src": "index.js", "use": "@now/node-server" }],
     "routes": [
         {
-          "src": "/download",
+          "src": "/",
           "dest": "/index.js",
           "methods": ["GET"]
-        },
-        {
-          "src": "/stats",
-          "dest": "/index.js",
-          "methods": ["GET"]
-        },
-        {
-            "src": "/ip",
-            "dest": "/index.js",
-            "methods": ["GET"]
         }
       ]
 }
