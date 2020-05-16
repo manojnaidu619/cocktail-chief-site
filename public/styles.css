@@ -1,0 +1,37 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: lavenderblush;
+}
+.container{
+    height: 100vh;
+    border: 1px solid red;
+}
+.title-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-div h1{
+    font-size: 30px;
+}
+.content-div{
+    border: 1px solid red;
+    height: 500px;
+}
+.download-row{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.download-div h2{
+    border: 1px solid red;
+    width: max-content;
+    padding: 25px;
+    border-radius: 10px;
+}
