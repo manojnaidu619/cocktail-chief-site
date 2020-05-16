@@ -4,37 +4,54 @@ body, html{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: lavenderblush;
+    background-color: #f7f7f7;
 }
 .container{
     height: 100vh;
-    border: 1px solid red;
-}
-.title-div{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-}
-.title-div h1{
-    font-size: 30px;
 }
 .content-div{
-    border: 1px solid red;
     height: 500px;
+    margin-top: 30px;
 }
 .download-row{
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+.download-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .download-div h2{
-    border: 1px solid red;
-    width: max-content;
     padding: 15px;
     border-radius: 10px;
+    text-align: center;
+    line-height: 38px;
 }
-.download-div:hover{
+.link:hover{
     cursor: pointer;
+}
+.links-div{
+    width: 275px;
+    text-align: center;
+    margin-top: 25px;
+}
+.image-div{
+    background-image: url('./hero-img.png');
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.download-link h2{
+    border: 2px solid gray;
+    border-radius: 5px;
 }
